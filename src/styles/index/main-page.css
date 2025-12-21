@@ -11,12 +11,11 @@ text-align:center;
 font-family: Montserrat;
 letter-spacing: 3px;
 font-size: 60px;
-padding-top: 60px;
 display: block;
 text-align:center;
 }
 .logo-picture{
-padding-top: 60px;
+padding-top: 10px;
 padding-bottom: 10px;
 display:block;
 width:150px;
@@ -32,9 +31,10 @@ align-items: center;
 }
 
 .description-text{
-display:inline-flex;
-align-items: center;
+display:inline-block
 justify-content: center;
+gap: 10px;
+margin-bottom: 10px;
 font-family: 'Montserrat', sans-serif;
 width:650px;
 font-size: 30px;
@@ -47,6 +47,7 @@ background: lightpink;
 .main-picture-block{
 width: 650px;
 margin-top: 10px;
+margin-right:100px;
 background: lightgrey;
 }
 

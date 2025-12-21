@@ -2,8 +2,8 @@ nav {
     background: white;
     height: 40px;
     width: 100%;
-    position: fixed;
-
+    position: sticky;
+    top: 0;
 }
 nav ul {
     height: 100%;
