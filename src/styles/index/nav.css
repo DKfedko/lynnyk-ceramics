@@ -4,6 +4,7 @@ nav {
     width: 100%;
     position: sticky;
     top: 0;
+
 }
 nav ul {
     height: 100%;
@@ -11,6 +12,7 @@ nav ul {
     padding-left: 100px;
     display: flex;
     justify-content: left;
+    margin-bottom:0;
 }
 nav ul li a {
     font-weight: italic;
