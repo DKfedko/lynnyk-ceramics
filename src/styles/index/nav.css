@@ -10,24 +10,27 @@ nav ul {
     height: 100%;
     list-style-type: none;
     padding-left: 100px;
+    padding-right: 100px;
     display: flex;
     justify-content: left;
-    margin-bottom:0;
+    align-items: center;
+    margin:0;
 }
 nav ul li a {
-    font-weight: italic;
-    color: black;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    display: block;
+   font-weight: italic;
+   color: black;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   display: block;
+}
 
+.signup-btn {
+  color: black;
+  font-weight: bold;
 }
-nav ul li a:hover {
-    background-color: lightgray;
-    border-radius: 10px;
-}
+
 .sign-up{
 margin-left: auto;
-padding-right: 100px;
 }
+
 

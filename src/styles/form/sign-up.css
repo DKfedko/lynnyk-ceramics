@@ -14,25 +14,27 @@ background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
 display: block;
 z-index: 1000;
 }
-.head-info-bar-text{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
-    font-size: 18px;
-    font-weight: normal;
-    background-color: rgb(139, 94, 60);
-    color: white;
-    margin-bottom:0;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px; 0;
+.head-info-bar-text{
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+font-size: 18px;
+font-weight: normal;
+background-color: rgb(139, 94, 60);
+color: white;
+margin-bottom:0;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px; 0;
 }
-.head-info-explore{
+
+.back-home{
     color: white;
     cursor:pointer;
     text-decoration: underline;
 }
-.head-info-explore:hover{
+
+.back-home:hover{
     color: black;
 }

@@ -1,25 +1,24 @@
-.head-info-bar{
+.bottom-info-bar{
 display: block;
 }
-.head-info-bar-text{
+.bottom-info-bar-text{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
     font-size: 18px;
     font-weight: normal;
-    background-color: rgb(139, 94, 60);
+    background-color: #3B2A26;
     color: white;
     margin-bottom:0;
-
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px; 0;
+    padding: 60px;
 }
-.head-info-explore{
+.bottom-info-explore{
     color: white;
     cursor:pointer;
     text-decoration: underline;
 }
-.head-info-explore:hover{
+.bottom-info-explore:hover{
     color: black;
 }
