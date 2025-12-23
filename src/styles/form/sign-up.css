@@ -1,5 +1,5 @@
 body{
-background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+background: linear-gradient(150deg, #0f2027, #203a43, #2c5364);
 }
 
 .btn-terracotta {
@@ -15,7 +15,6 @@ background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
 
 .head-info-bar{
 display: block;
-z-index: 1000;
 }
 
 .head-info-bar-text{

@@ -11,6 +11,11 @@ align-items: center;
 justify-content: center;
 padding: 10px; 0;
 }
+.btn-terracotta {
+  background-color: #8B5E3C;
+  border-color: #8B5E3C;
+  color: white;
+}
 
 .back-home{
     color: white;
@@ -21,4 +26,9 @@ padding: 10px; 0;
 
 .back-home:hover{
     color: black;
+}
+
+.btn-terracotta:hover {
+  background-color: #7a5032;
+  border-color: #7a5032;
 }
