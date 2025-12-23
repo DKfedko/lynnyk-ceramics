@@ -33,6 +33,7 @@ padding: 10px; 0;
     color: white;
     cursor:pointer;
     text-decoration: underline;
+    weight:400;
 }
 
 .back-home:hover{
