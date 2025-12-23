@@ -77,14 +77,18 @@ margin-bottom: 10px;
   border-color: #8B5E3C;
   color: white;
 }
+
 .btn-terracotta:hover {
   background-color: #7a5032;
   border-color: #7a5032;
+  color:black;
 }
+
 .view-all-btn{
   text-align: center;
   padding: 20px 0;
 }
+
 .view-text{
 text-align: center;
 }
