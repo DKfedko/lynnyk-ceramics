@@ -1,3 +1,9 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
 .head-info-bar-text{
 font-family: 'Montserrat', sans-serif;
 letter-spacing: 3px;
@@ -11,11 +17,6 @@ align-items: center;
 justify-content: center;
 padding: 10px; 0;
 }
-.btn-terracotta {
-  background-color: #8B5E3C;
-  border-color: #8B5E3C;
-  color: white;
-}
 
 .back-home{
     color: white;
@@ -28,7 +29,3 @@ padding: 10px; 0;
     color: black;
 }
 
-.btn-terracotta:hover {
-  background-color: #7a5032;
-  border-color: #7a5032;
-}

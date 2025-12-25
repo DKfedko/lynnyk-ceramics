@@ -1,6 +1,6 @@
 body{
   margin-top:0px;
-  height: 2600px;
+  height: 2000px;
 }
 .main-logo-bar{
 display: flex;
@@ -29,29 +29,28 @@ height:auto;
 display: flex;
 gap: 60px;
 align-items: stretch;
-margin-top: 20px;
+padding: 0 0;
 }
 
 .about{
-width: 800px;
-flex: 1;
+display: flex;
+max-width: 600px;
+margin: 0 auto;
 border: 2px solid black;
 padding: 40px;
 }
 
 .about-text{
 font-family: 'Montserrat', sans-serif;
-font-size: 25px;
-margin-top: 10px;
-margin-bottom: 10px;
+font-size: 18px;
+text-align: justify;
+line-height: 1.8;
 }
 
 .main-picture{
-width: 650px;
+max-width: 600px;
 object-fit: cover;
-display: block;
-margin-top: 10px;
-margin-bottom: 10px;
+display: flex;
 }
 
 .main-pic{
@@ -63,13 +62,11 @@ display: block;
 
 .list-about{
 width: 800px;
-flex: 1;
 border: 2px solid black;
 padding: 40px;
 font-family: 'Montserrat', sans-serif;
 font-size: 25px;
-margin-top: 10px;
-margin-bottom: 10px;
+
 }
 
 .btn-terracotta {
