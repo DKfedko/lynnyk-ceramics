@@ -1,7 +1,7 @@
 body{
-  margin-top:0px;
-  height: 2000px;
+margin-top:0px;
 }
+
 .main-logo-bar{
 display: flex;
 align-items: center;
@@ -17,6 +17,7 @@ font-size: 40px;
 display: block;
 text-align:center;
 }
+
 .logo-picture{
 padding-top: 10px;
 padding-bottom: 10px;
@@ -32,14 +33,6 @@ align-items: stretch;
 padding: 0 0;
 }
 
-.about{
-display: flex;
-max-width: 600px;
-margin: 0 auto;
-border: 2px solid black;
-padding: 40px;
-}
-
 .about-text{
 font-family: 'Montserrat', sans-serif;
 font-size: 18px;
@@ -47,25 +40,11 @@ text-align: justify;
 line-height: 1.8;
 }
 
-.main-picture{
-max-width: 600px;
-object-fit: cover;
-display: flex;
-}
 
 .main-pic{
 width: 100%;
 height: auto;
 display: block;
-
-}
-
-.list-about{
-width: 800px;
-border: 2px solid black;
-padding: 40px;
-font-family: 'Montserrat', sans-serif;
-font-size: 25px;
 
 }
 
