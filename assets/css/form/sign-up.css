@@ -1,0 +1,43 @@
+body{
+    background: linear-gradient(150deg, #0f2027, #203a43, #2c5364);
+}
+
+.btn-terracotta {
+  background-color: #8B5E3C;
+  border-color: #8B5E3C;
+  color: white;
+}
+
+.btn-terracotta:hover {
+  background-color: #7a5032;
+  border-color: #7a5032;
+}
+
+.head-info-bar{
+    display: block;
+}
+
+.head-info-bar-text{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: rgb(139, 94, 60);
+    color: white;
+    margin-bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; 0;
+}
+
+.back-home{
+    color: white;
+    cursor:pointer;
+    text-decoration: underline;
+    weight:400;
+}
+
+.back-home:hover{
+    color: black;
+}
