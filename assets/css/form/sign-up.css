@@ -1,3 +1,14 @@
 body{
     background: linear-gradient(150deg, #0f2027, #203a43, #2c5364);
 }
+.btn-terracotta {
+    background-color: #8B5E3C;
+    border-color: #8B5E3C;
+    color: white;
+}
+
+.btn-terracotta:hover {
+    background-color: #7a5032;
+    border-color: #7a5032;
+    color:black;
+}
