@@ -1,4 +1,4 @@
-nav {
+nav{
     background: white;
     height: 60px;
     position: sticky;
@@ -11,17 +11,12 @@ nav ul {
     list-style-type: none;
     display: flex;
     width:100%;
-    justify-content: space-between;
+    justify-content: left;
     margin:0;
     padding: 0 60px;
+    gap: 1rem;
 }
 
-.nav-left {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
 nav ul li a {
    font-weight: italic;
@@ -33,18 +28,22 @@ nav ul li a {
 
 nav ul li {
     margin: 0;
+    position: relative;
 }
 
 .signup-btn {
-    color: black;
     font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    white-space: nowrap;
+}
+.signup-btn:hover{
+    background:rgb(139, 94, 60);
 }
 
-
-
 .nav_link{
-    position:relative;
     transition: all 0.4s;
+
 }
 
 .nav_link::after{
@@ -64,4 +63,11 @@ nav ul li {
     opacity: 1;
 }
 
-
+@media (max-width: 575px) {
+    .navbar-collapse {
+    background-color: lightgrey;
+    padding: 1.5rem 1rem;
+    margin-top: 0.5rem;
+    border-radius:12px;
+}
+}

@@ -1,5 +1,6 @@
 .head-info-bar{
 display: block;
+padding: 0 0;
 }
 .head-info-bar-text{
     font-family: 'Montserrat', sans-serif;
@@ -23,3 +24,4 @@ display: block;
 .head-info-explore:hover{
     color: black;
 }
+

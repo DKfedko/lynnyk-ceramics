@@ -9,18 +9,53 @@
           integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   <title>ceramic's media</title>
   <link rel="stylesheet" href="assets/css/media/media.css">
+  <link rel="stylesheet" href="assets/css/index/head-info-bar.css">
+  <link rel="stylesheet" href="assets/css/index/nav.css">
 </head>
 <body>
-<div class="head-info-bar">
-  <p class="head-info-bar-text">
-    <strong>
-      HANDMADE CERAMIC,
-      <a href="index.html">
-        <span class="back-home">BACK HOME</span>
-      </a>
-    </strong>
-  </p>
-</div>
+<div>
+  <div class="container-fluid head-info-bar align-items-center justify-content-center">
+    <p class="head-info-bar-text text-center">
+      <strong class="justify-content-center align-items-center">
+        <a href="index.html">
+          <span class="head-info-explore align-items-center justify-content-center">RETURN HOME</span>
+        </a>
+      </strong>
+    </p>
+  </div>
+
+  <nav class="navbar navbar-expand-sm
+      header border-bottom
+      ">
+    <div class="container-fluid px-5">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav me-auto p-0">
+          <li class="nav-item">
+            <a class="nav_link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav_link" href="media.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav_link" href="#">Contact us</a>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a href="sign-up.html" class="btn signup-btn">Sign up</a>
+        </div>
+        <div class="d-flex align-items-center">
+          <a href="cart.html" class="btn cart-btn">
+            <img src="assets/images/others/cart-icon-28344.png" alt="cart icon" class="img-fluid " style="width: 35px; height: 35px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
 <div class="container my-4">
   <div class="row-cols-2 row-cols-md-1 g-4 justify-content-center">
     <div class="row g-1 justify-content-center">
@@ -282,6 +317,7 @@
       </div>
     </div>
   </div>
+</div>
 </div>
 </body>
 </html>
